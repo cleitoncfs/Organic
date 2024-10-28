@@ -1,0 +1,2 @@
+https://world.openfoodfacts.org/api/v3/product/20005733.json
+https://pt.openfoodfacts.org/produto/20005733/nozes-alesto

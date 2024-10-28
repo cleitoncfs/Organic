@@ -1,0 +1,28 @@
+/TP4-PYTHON
+│
+├── app.py               # Arquivo principal do aplicativo Flask
+├── requirements.txt     # Dependências do projeto
+│
+├── static               # Pasta para arquivos estáticos (CSS, JS, imagens)
+│   ├── css
+│   │   └── ajax-loader.gif
+│   │   └── normalize.css    
+│   │   └── style.css
+│   │   └── vendor.css
+│   │
+│   ├── js
+│   │   └── jquery-1.11.0.min.js
+│   │   └── modernizr.js
+│   │   └── plugins.js
+│   │   └── script.js
+│   │
+│   └── images              
+│       ├── banner1.jpg
+│       ├── banner-ad-1.jpg
+│       ├── banner-ad-2.jpg
+│       └── img...
+│
+└── templates            # Pasta para templates HTML
+    ├── base.html
+    └── index.html
+    
