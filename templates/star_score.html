@@ -1,0 +1,24 @@
+<!-- ================================================================================================== -->
+<!-- ====================================== Submenu Star_Score ======================================== -->
+<!-- ================================================================================================== -->
+
+{% set x = 0 %}
+<!-- {% set score_aux = produto.nutri_score %}  -->
+{% for x in range(5) %}
+    {% if (produto.nutri_score - 1) >= x %}
+        <svg width="18" height="18" class="text-warning">
+            <use xlink:href="#star-full"></use>
+        </svg>
+      {% else %}
+        {% if (produto.nutri_score - x) >= 0.5  %}
+            <svg width="18" height="18" class="text-warning">
+                <use xlink:href="#star-half"></use>
+            </svg>
+          {% else %}
+            <!-- <img src="{{url_for('static', filename= 'star_white.svg' )}}" alt="Product Thumbnail" class="tab-image">
+                <svg width="18" height="18" class="text-warning">
+                    <use xlink:href="#star-none"></use>
+                </svg> } -->
+        {% endif %}
+    {% endif %}
+{% endfor %}

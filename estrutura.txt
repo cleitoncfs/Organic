@@ -1,6 +1,7 @@
 /TP4-PYTHON
 │
 ├── app.py               # Arquivo principal do aplicativo Flask
+├── freeze.py            # Criação de uma versão estática do site, para GitHub Pages.
 ├── requirements.txt     # Dependências do projeto
 │
 ├── static               # Pasta para arquivos estáticos (CSS, JS, imagens)
